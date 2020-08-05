@@ -1,6 +1,6 @@
-FROM haproxy:alpine
+FROM haproxy:1.5.18
 
-LABEL maintainer="Meik Minks <mminks@inoxio.de>"
+LABEL maintainer="James Woglom <j@wogloms.net> forked from Meik Minks <mminks@inoxio.de>"
 
 RUN set -exo pipefail \
     && apk add --no-cache \
