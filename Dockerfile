@@ -1,4 +1,4 @@
-FROM haproxy:1.5.18
+FROM haproxy:1.5.18-alpine
 
 LABEL maintainer="James Woglom <j@wogloms.net> forked from Meik Minks <mminks@inoxio.de>"
 
